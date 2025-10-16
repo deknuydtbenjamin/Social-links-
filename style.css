@@ -33,12 +33,77 @@ h2{
     color: hsl(75, 94%, 57%);
     font-family: "Inter";
     font-weight: 600;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 12%);
+    margin: 0.7em 0 2em 0;
 }
-button{
-    text-decoration: none;
 
-}
-p,button{
+
+p{
     font-family: "Inter";
     font-weight: 400;
+    background-color: hsl(0, 0%, 12%);
+    margin-bottom: 1em;
+    font-size: 14px;
+
+}
+h1{
+    background-color: hsl(0, 0%, 12%);
+
+
+}
+img{
+    border-radius: 50%;
+    width: 7em;
+    margin: 0.7em 0 2.5em 0;
+}
+
+
+/*BTN LINKS*/
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li, a{
+    background-color: hsl(0, 0%, 20%);
+}
+li{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    margin: 1em;
+    padding: 0.8em 5em;
+    border-radius: 0.5em;
+    font-size: 14px;
+}
+
+section{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1em;
+}
+article, ul{
+    background-color: hsl(0, 0%, 12%);
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    /* margin: 1em 2em;
+    padding: 1em; */
+    border-radius: 1em;
+    width: 20em;
+    height: 37em;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+  background-color: hsl(0, 0%, 8%);
 }
