@@ -5,6 +5,8 @@
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
 }
+
+/* FONT */
 @font-face {
   font-family: "Inter";
   src: url("/assets/fonts/static/Inter-Regular.ttf") format("truetype");
@@ -25,9 +27,13 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* TITLE */
+
 h1{
     font-family: "Inter";
     font-weight: 700;
+     background-color: hsl(0, 0%, 12%);
 }
 h2{
     color: hsl(75, 94%, 57%);
@@ -47,11 +53,8 @@ p{
     font-size: 14px;
 
 }
-h1{
-    background-color: hsl(0, 0%, 12%);
 
-
-}
+/* IMAGE */
 img{
     border-radius: 50%;
     width: 7em;
@@ -80,6 +83,7 @@ li{
     font-size: 14px;
 }
 
+/* SECTION */
 section{ 
     display: flex;
     flex-direction: column;
